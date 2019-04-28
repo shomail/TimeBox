@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Page from './Pages/Page';
 
-function App() {
-  return (
-    <div>
-      <h1>TimeBox</h1>
-    </div>
-  );
+class App extends Component<{}> {
+  render() {
+    return (
+      <div>
+        <Page />
+      </div>
+    );
+  }
 }
 
 export default App;
